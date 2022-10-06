@@ -3,5 +3,7 @@ Just For Learn Git & GitHub
 """
 
 
-for num in range(1, 11):
-    print(f"Welcome to Git Version Control System {num}")
+names = ["David", "Michael", "Max", "Rex"]
+
+for num, name in zip(range(len(names)), names):
+    print(f"Welcome to Git Version Control System {name} {num + 1}")
