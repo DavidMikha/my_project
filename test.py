@@ -4,6 +4,10 @@ Just For Learn Git & GitHub
 
 
 names = ["David", "Michael", "Max", "Rex"]
+num = 1
 
-for num, name in zip(range(len(names)), names):
-    print(f"Welcome to Git Version Control System {name} {num + 1}")
+while num <= len(names):
+    print(f"Welcome to Git Version Control System {names[num - 1]} {num}")
+    num += 1
+else:
+    print("Done")
