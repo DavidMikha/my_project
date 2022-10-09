@@ -7,7 +7,7 @@ names = ["David", "Michael", "Max", "Rex"]
 num = 1
 
 while num <= len(names):
-    print(f"Welcome to Git Version Control System {names[num - 1]} {num}")
+    print(f"Just Git {names[num - 1]} {num}")
     num += 1
 else:
     print("Done")
